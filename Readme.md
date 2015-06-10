@@ -5,7 +5,7 @@ Please see our Jet [Getting Started](http://codeship-documentation-private.s3-we
 Clone this repository via
 
 ```bash
-git clone https://gist.github.com/2a7751a9b5062e92dcec.git ./jet-tutorial/
+git clone git@github.com:codeship/jet-tutorial.git
 ```
 
 and then run the build via
