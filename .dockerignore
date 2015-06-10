@@ -1,5 +1,5 @@
 .git
-.01_Jet_Tutorial.md
 Dockerfile
+Readme.md
 codeship-services.yml
 codeship-steps.yml
