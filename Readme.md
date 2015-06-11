@@ -1,6 +1,6 @@
 # Codeship Jet Tutorial
 
-Please see our Jet [Getting Started](http://codeship-documentation-private.s3-website-us-east-1.amazonaws.com/docker/docker/getting-started/) tutorial for the full tutorial.
+Please see our Jet [Getting Started](http://codeship-documentation-private.s3-website-us-east-1.amazonaws.com/docker/docker/getting-started/) tutorial for the full text.
 
 Clone this repository via
 
@@ -11,7 +11,7 @@ git clone git@github.com:codeship/jet-tutorial.git
 and then run the build via
 
 ```bash
-cd ./jet-tutorial/
+cd jet-tutorial
 jet steps
 ```
 
