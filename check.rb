@@ -6,15 +6,26 @@ def log(message)
 end
 
 log "Checking Redis server..."
-redis = Redis.new()
-log "REDIS VERSION: #{redis.info["redis_version"]}"
+begin
+  redis = Redis.new()
+  redis.ping
+  log "REDIS VERSION: #{redis.info["redis_version"]}"
+rescue Redis::CannotConnectError => e
+  STDERR.puts(e.message)
+  exit 1
+end
 
-sleep 2
 
 log "Checking PostgreSQL server..."
-pg = PG.connect({
-  host: ENV['POSTGRES_HOST'],
-  dbname: ENV['POSTGRES_DB'],
-  user: ENV['POSTGRES_USER']
-  })
-log pg.exec("SELECT version();").first["version"]
+begin
+  pg = PG.connect({
+    host: ENV['POSTGRES_HOST'],
+    dbname: ENV['POSTGRES_DB'],
+    user: ENV['POSTGRES_USER'],
+    connect_timeout: 10
+    })
+  log pg.exec("SELECT version();").first["version"]
+rescue PG::Error => e
+  STDERR.puts("PostgreSQL connection faild")
+  exit 2
+end
