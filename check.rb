@@ -15,14 +15,12 @@ rescue Redis::CannotConnectError => e
   exit 1
 end
 
-
 log "Checking PostgreSQL server..."
 begin
   pg = PG.connect({
     host: ENV['POSTGRES_HOST'],
     dbname: ENV['POSTGRES_DB'],
     user: ENV['POSTGRES_USER'],
-    connect_timeout: 10
     })
   log pg.exec("SELECT version();").first["version"]
 rescue PG::Error => e

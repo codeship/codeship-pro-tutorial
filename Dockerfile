@@ -2,7 +2,7 @@
 FROM ruby:2.3
 
 # Update the base system and install any required dependencies
-RUN apt-get update -qq
+RUN apt-get update -qq && apt-get install -y netcat
 
 # You could install further dependencies via e.g.
 # RUN apt-get install \

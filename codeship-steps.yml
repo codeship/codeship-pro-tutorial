@@ -1,2 +1,2 @@
 - service: app
-  command: bundle exec ruby check.rb
+  command: bash check.sh
