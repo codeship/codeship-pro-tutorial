@@ -1,8 +1,8 @@
-# Start with the offical image for Ruby 2.2.2
-FROM ruby:2.2.2
+# Start with the offical image for Ruby 2.3.0
+FROM ruby:2.3.0
 
 # Update the base system and install any required dependencies
-RUN apt-get update -qq
+RUN apt-get update -qq && apt-get install -y netcat
 
 # You could install further dependencies via e.g.
 # RUN apt-get install \

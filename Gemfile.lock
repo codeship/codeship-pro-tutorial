@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    pg (0.18.2)
-    redis (3.2.1)
+    pg (0.18.4)
+    redis (3.2.2)
 
 PLATFORMS
   ruby
