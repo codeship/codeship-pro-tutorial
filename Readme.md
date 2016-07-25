@@ -1,5 +1,8 @@
 # Codeship Docker Infrastructure Tutorial
 
+# Build status
+https://codeship.com/projects/d7765030-f589-0133-716c-1ef9ae27d679/status?branch=master
+
 Please see our Codeship Docker Infrastructure [Getting Started](https://codeship.com/documentation/docker/getting-started/) tutorial for the full text as well as installation instructions for the CLI.
 
 ## Quick Setup
