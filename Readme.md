@@ -18,7 +18,7 @@ jet steps
 ```
 
 ## Submitting an Issue
-We use the [GitHub issue tracker][issues] to track bugs and features for the documentation pages available at https://codeship.com/documentation/. Before submitting a bug report or feature request, check to make sure it hasn't already been submitted. When submitting a bug report, please include any details that may be necessary to reproduce the bug.
+We use the [GitHub issue tracker][issues] to track bugs and features for this tutorial. Before submitting a bug report or feature request, check to make sure it hasn't already been submitted. When submitting a bug report, please include any details that may be necessary to reproduce the bug.
 
 ## Submitting a Pull Request
 1. [Fork the repository.][fork]
