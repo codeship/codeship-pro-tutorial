@@ -7,13 +7,13 @@ Please see our Codeship Docker Infrastructure [Getting Started](https://document
 Once you have the CLI installed, clone this repository via
 
 ```bash
-git clone https://github.com/codeship/jet-tutorial.git
+git clone https://github.com/codeship/docker-tutorial.git
 ```
 
 and then run the build via
 
 ```bash
-cd jet-tutorial
+cd docker-tutorial
 jet steps
 ```
 
