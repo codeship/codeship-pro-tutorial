@@ -1,6 +1,6 @@
-# Codeship Docker Infrastructure Tutorial
+# Codeship Pro Tutorial
 
-Please see our Codeship Docker Infrastructure [Getting Started](https://documentation.codeship.com/docker/getting-started/getting-started/) tutorial for the full text as well as installation instructions for the CLI.
+Please see our Codeship Pro [Getting Started](https://documentation.codeship.com/pro/getting-started/getting-started/) tutorial for the full text as well as installation instructions for the CLI.
 
 ## Quick Setup
 
