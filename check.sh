@@ -4,7 +4,7 @@ set -e
 function check_port() {
 	local host=${1} && shift
 	local port=${1} && shift
-	local retries=5
+	local retries=25
 	local wait=1
 
 	until( $(nc -zv ${host} ${port}) ); do
