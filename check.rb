@@ -24,6 +24,6 @@ begin
     })
   log pg.exec("SELECT version();").first["version"]
 rescue PG::Error => e
-  STDERR.puts("PostgreSQL connection faild")
+  STDERR.puts("PostgreSQL connection failed")
   exit 2
 end
